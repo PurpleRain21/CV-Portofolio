@@ -1,0 +1,90 @@
+html {
+    background-color: blueviolet;
+}
+
+#div-header{
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+#nav-ulist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #352F44;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+#nav-ulist li {
+    display: inline-block;
+}
+
+#nav-ulist li a {
+    display: block;
+    color: #FAF0E6;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#nav-ulist li a:hover:not(.active) {
+    background-color: #231e2e;
+}
+
+#div-home {
+    margin-top: 52px;
+    width: 100%;
+    height: 400px;
+    background-color: #FAF0E6;
+    background-image: url('../images/background_pic.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#pic-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2dvh;
+}
+
+#profile-pic {
+    width: 250px;
+    border-radius: 50%;
+}
+
+#fancy_name {
+    color: #9D76C1;
+    font-weight: bold;
+    transition: 0.5s;  
+    font-size: x-large;  
+}
+
+#fancy_name:hover {
+    color: #5C5470;
+    font-weight: bold;
+    transition: 0.5s;    
+}
+
+#text-intro {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    align-items: center;
+    margin-right: 200px;
+}
+
+#text-intro > p {
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: larger;
+    text-align: justify;
+}
+
+
+  
