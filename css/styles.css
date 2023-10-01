@@ -50,10 +50,10 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 2dvh;
 }
 
 #profile-pic {
+    margin-top: 25px;;
     width: 250px;
     border-radius: 50%;
 }
@@ -72,11 +72,10 @@ html {
 }
 
 #text-intro {
+    margin-top: 20px;
     display: flex;
     justify-content: left;
     align-items: center;
-    align-items: center;
-    margin-right: 200px;
 }
 
 #text-intro > p {
